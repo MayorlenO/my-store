@@ -34,8 +34,9 @@ console.log(nico.lastName)
 //devolvería 'Pérez'
 
 
-//String {{Interpolation}}
+//String Interpolation
 //{{ 1 + 1 }}
 //{{ myVar }}
 //{{ myFunction() }}
+
 
