@@ -2,4 +2,22 @@
 <h2>{{' Hola mundo '.repeat(5)}}</h2>
 <p>3 + 3 = {{ 3 + 3 }}</p>
 <h3>Hola, soy {{name}} y tengo {{age}} años</h3>
-<img src="{{img}}" alt="">
+<hr>
+
+
+    <label class="label1">
+      <input [value]="1" [(ngModel)]="optionDataBase" name="optionDataBase" type="checkbox" [checked]="isChecked" /> Database
+    </label>
+    
+    <div class="text-center purple" *ngIf="optionDataBase == 1">
+        <label for="cars">Choose a database:</label>
+     <select name="mostrador" id="mostrador" >
+    <option value="value1">Oracle</option>
+    <option value="value2" selected>Postgresql</option>
+   
+        </select>
+        <div>
+<div></div>
+    <div class="text-center red" *ngIf="optionDataBase == 0"></div>
+  </div>
+

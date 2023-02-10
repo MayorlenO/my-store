@@ -6,7 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  title = 'title'
   name = 'May';
   age = 38;
-  img = 'https://www.investigacionyciencia.es/images/7793/articleImage-minimal.jpg'
+  optionDataBase:any='';
+  isChecked:Boolean = true;
 }
